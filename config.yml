@@ -1,0 +1,100 @@
+baseURL: "https://swanandx.github.io/blog/"
+title: swanandx's blog
+paginate: 5
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+    disableXML: true
+
+# languages:
+#     en:
+#         languageName: "English"
+#         weight: 1
+menu:
+  main:
+    - name: Archive
+      url: archives
+      weight: 5
+    - name: Search
+      url: search/
+      weight: 10
+    - name: Tags
+      url: tags/
+      weight: 10
+    - name: Categories
+      url: categories/
+      weight: 10
+
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    author: Swanand
+    defaultTheme: auto
+    ShowShareButtons: true
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowToc: true
+
+    homeInfoParams:
+        Title: "Hii 👋 Namaskar 🙏"
+        Content: >
+            😄 Welcome to my blog.
+
+            - 📝 Here I share my knowledge and thoughts.
+
+            - ⚡️ Enjoy your stay and happy reading <3.
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/swanandx"
+        - name: twitter
+          url: "https://twitter.com/_swanandx"
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+     goldmark:
+        renderer:
+            unsafe: true
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true
