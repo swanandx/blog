@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swanandx.github.io/blog/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reversing the CTFs</title>
-      <link>https://swanandx.github.io/blog/posts/re_methodology/</link>
+      <title>Reversing Binaries: CTF Edition</title>
+      <link>https://swanandx.github.io/blog/posts/re/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://swanandx.github.io/blog/posts/re_methodology/</guid>
+      <guid>https://swanandx.github.io/blog/posts/re/</guid>
       <description>Methodology for reverse engineering ctf challenges</description>
     </item>
     
