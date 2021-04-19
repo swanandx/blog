@@ -3,7 +3,7 @@ author: swanandx
 title: "Reversing Binaries: CTF Edition"
 date: 2021-04-18
 description: Methodology for reverse engineering ctf challenges
-series: Reverse Engineering
+series: ["Reverse Engineering"]
 tags: ["RE","CTF"]
 categories: ["CTF"]
 ShowBreadCrumbs: true
