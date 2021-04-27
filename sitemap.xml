@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://swanandx.github.io/blog/posts/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/tags/re/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/series/reverse-engineering/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/posts/re/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/posts/re/keygen/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/series/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://swanandx.github.io/blog/tags/</loc>
+    <lastmod>2021-04-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://swanandx.github.io/blog/categories/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,25 +35,7 @@
     <loc>https://swanandx.github.io/blog/categories/ctf/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://swanandx.github.io/blog/posts/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/tags/re/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/series/reverse-engineering/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/posts/re/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/series/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/</loc>
-    <lastmod>2021-04-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://swanandx.github.io/blog/tags/</loc>
+    <loc>https://swanandx.github.io/blog/posts/re/ctfs/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://swanandx.github.io/blog/archives.fr/</loc>

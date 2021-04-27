@@ -8,10 +8,10 @@
     <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swanandx.github.io/blog/categories/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reversing Binaries: CTF Edition</title>
-      <link>https://swanandx.github.io/blog/posts/re/</link>
+      <link>https://swanandx.github.io/blog/posts/re/ctfs/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://swanandx.github.io/blog/posts/re/</guid>
+      <guid>https://swanandx.github.io/blog/posts/re/ctfs/</guid>
       <description>Methodology for reverse engineering ctf challenges</description>
     </item>
     

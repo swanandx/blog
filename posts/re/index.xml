@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RE on swanandx&#39;s blog</title>
-    <link>https://swanandx.github.io/blog/tags/re/</link>
-    <description>Recent content in RE on swanandx&#39;s blog</description>
+    <title>Reverse Engineering on swanandx&#39;s blog</title>
+    <link>https://swanandx.github.io/blog/posts/re/</link>
+    <description>Recent content in Reverse Engineering on swanandx&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swanandx.github.io/blog/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://swanandx.github.io/blog/posts/re/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reversing Binaries: Key generators</title>
       <link>https://swanandx.github.io/blog/posts/re/keygen/</link>
