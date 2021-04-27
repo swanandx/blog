@@ -9,7 +9,7 @@ ShowBreadCrumbs: true
 ---
 
 # What is in this post?
-You might have seen something like "Product Keys" for some softwares or some other applications, but how exactly do they verify if the key is correct ? They implement a function that will validate key. We will be reverse engineering a binary that validates a key using some function, and then will write a key generator, i.e key-gen, that will generate valid keys.
+You might have seen something like "Product Keys" for some softwares or some other applications, but how exactly do they verify if the key is correct ? They implement a function that will validate key. We will be reverse engineering a binary, which validates a key using some function, and then we will write a key generator, i.e key-gen, for it to generate valid keys.
 
 # Key checker binary
 We got a binary that validates our key :
@@ -21,7 +21,7 @@ Lets decompile it using `ghidra` and look at `main` function :
 
 ![main.png](./images/da99bf0f380545cfbfeec4b94d3c7cc0.png#center)
 
-As we can see, it scans key using `scanf` and then pass it to `validate_key` function. Before going ahead, lets see the first argument of `scanf` :
+As we can see, it scans key using `scanf` and then pass it to `validate_key` function. Before going ahead, lets see what is the first argument of `scanf` :
 
 ![scanf.png](./images/f360ab23be7b4c11bd6800905a894102.png#center)
 
@@ -83,8 +83,8 @@ Lets execute it, and see if it generates valid keys.
 
 We did it!! We successfully wrote a key generator that generates valid keys!!
 
-> **NOTE** : we didn't have any restrictions on length of key, but if there was any, like key length must be 12, then we can just append the generated key with `0`s till it's length is 12. For example,
+> **NOTE** : we didn't have any restrictions on length of key, but if there was any, like key length must be 12, then we can just prepend the generated key with `0`s till it's length is 12. For example,
 ![00s.png](./images/e9c19276d70e492f967084c5454feab7.png#center)
 
 # Try it yourself!
-What are you waiting for? Compile some binaries and try to write key-gen for it. This will help you not only in understanding but also improve scripting skills.
+What are you waiting for? Compile some binaries and try to write key-gen for it. This will help you in understanding and will improve scripting skills too.
