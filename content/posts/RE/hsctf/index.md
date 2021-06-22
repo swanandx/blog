@@ -158,9 +158,14 @@ I didn't know how substring works, so I did a quick search on Google and found o
 
 `
 a -> From start to l
+`
+`
 b -> After l to next l
+`
+`
 c -> remaining part
 `
+
 The string we have is in form of `c + b + a`, to reverse it, we need, `a + b + c`.
 
 So `b` ends with `l`, and `a` ends with `l`, and `a` is at end, so from this we can say that `a` is `3nwh:l` this part.
