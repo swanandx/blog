@@ -195,9 +195,9 @@ So, we will subtract `3 * (i/2)` from the character if `i % 2 == 0`.
 new_string = ""
 for i in range(len(output_string)):
     if i % 2 == 0:
-        new_string += chr(output_string[i] - int(3*(i/2)))
+        new_string += chr(ord(output_string[i]) - int(3*(i/2)))
     else:
-        new_string += chr(output_string[i])
+        new_string += output_string[i]
 print(new_string)
 
 ```
@@ -209,9 +209,9 @@ output_string = output_string[-6:] + output_string[15:-6] + output_string[:15]
 new_string = ""
 for i in range(len(output_string)):
     if i % 2 == 0:
-        new_string += chr(output_string[i] - int(3*(i/2)))
+        new_string += chr(ord(output_string[i]) - int(3*(i/2)))
     else:
-        new_string += chr(output_string[i])
+        new_string += output_string[i]
 print(new_string)
 
 # Prints 3nth4lpy_0f_5y5}flag{1ncr34s3_1n_
@@ -232,6 +232,28 @@ By this time, we can already see the flag, all this function do is
 ![swap](./img/swap.gif#center)
 
 Just swap it again which gives us the flag!!
+
+Final script:
+
+```py
+adj = [-72, 7, -58, 2, -33, 1, -102, 65, 13, -64, 21, 14, -45, -11, -48, -7, -1, 3, 47, -65, 3, -18, -73, 40, -27, -73, -13, 0, 0, -68, 10, 45, 13]
+our_string = "4n_3nd0th3rm1c_rxn_4b50rb5_3n3rgy"
+output_string = ""
+
+for i in range(len(our_string)):
+    output_string += chr(ord(our_string[i]) - adj[i])
+
+output_string = output_string[-6:] + output_string[15:-6] + output_string[:15]
+new_string = ""
+for i in range(len(output_string)):
+    if i % 2 == 0:
+        new_string += chr(ord(output_string[i]) - int(3*(i/2)))
+    else:
+        new_string += output_string[i]
+
+flag = new_string[16:] + new_string[:16]
+print(flag)
+```
 
 > flag{1ncr34s3_1n_3nth4lpy_0f_5y5}
 
